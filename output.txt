@@ -1,0 +1,2 @@
+Reaaranged array: 3 -2 1 -5 2 -4 
+Reaaranged array: 1 -3 2 -1 3 -2 

@@ -1,0 +1,18 @@
+{
+  "C_Cpp.errorSquiggles": "enabled",
+  "files.associations": {
+    "*.sh": "shellscript",
+    "vector": "cpp",
+    "deque": "cpp",
+    "list": "cpp",
+    "map": "cpp",
+    "unordered_map": "cpp",
+    "xhash": "cpp",
+    "xstring": "cpp",
+    "xtree": "cpp",
+    "ostream": "cpp",
+    "xlocale": "cpp",
+    "iostream": "cpp",
+    "utility": "cpp"
+  }
+}
