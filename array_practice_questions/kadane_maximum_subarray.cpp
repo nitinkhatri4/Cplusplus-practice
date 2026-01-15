@@ -24,19 +24,10 @@ int maxSubarray(vector<int> &nums) {
     int n = nums.size();
 
     int maxSum = nums[0], currSum = 0;
-    int start = 0;
-    int ansStart = -1, ansEnd = -1;
     for(int i=0; i<n; i++) {
-        if(currSum == 0) {
-            start = i;
-        }
-
         currSum += nums[i];
-        if(currSum > maxSum) {
-            maxSum = currSum;
-            
-        }
-
+        maxSum = max(currSum, maxSum);
+        
         if(currSum < 0) {
             currSum = 0; // if found any negative sum, leave that element by resetting the current element.
         }
